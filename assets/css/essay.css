@@ -1,0 +1,92 @@
+body {
+    font-family: Arame;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right,#2c3e50, #48536C , #2c3e50);
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.essay-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #96C5FB;
+    /* border-radius: 15px; */
+    /* box-shadow: 20px 20px 20px #d0efff; */
+    display: static;
+    justify-content: center;
+
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+article {
+    border-radius: 15px;
+    background-color: #d0efff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+    margin: 0 auto; /* Add this to center the box horizontally */
+    letter-spacing: 0.1em;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  /* Button styles */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 0.1em;
+    background-color: transparent;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-color: #d0efff;
+  }
+  
+  /* Active effect */
+  .button:active {
+    background-color: #d0efff;
+  }
+
+@font-face {
+    font-family: 'Arame';
+    src: url('./Arame Thin.ttf') format('truetype');
+  }
+  

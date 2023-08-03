@@ -1,0 +1,114 @@
+#contact {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  /* Styles for the team member cards */
+  .team-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+  }
+  
+  .team-member {
+    max-width: 250px;
+    text-align: center;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .team-member p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+  }
+
+  .team-member img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; /* This will create a circular border */
+    border: 3px solid #fff; /* Add a white border to give it a nice look */
+    }
+
+    
+				/* Slideshow container */
+				.slideshow-container {
+					position: relative;
+					max-width: 600px;
+					margin: 0 auto;
+				}
+
+				/* Hide all slides by default */
+				.mySlides {
+					display: none;
+				}
+
+				/* CSS for the 3x3 grid */
+				.team-section {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 20px;
+				}
+
+				.team-member {
+					text-align: center;
+				}
+
+				.team-member img {
+					width: 100px;
+					height: 100px;
+					border-radius: 50%;
+				}
+
+				/* Next and previous buttons */
+				.prev, .next {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					font-size: 30px;
+					cursor: pointer;
+					padding: 150px;
+					color: #31AAE0;
+				}
+
+				.prev {
+					left: 0;
+				}
+
+				.next {
+					right: 0;
+				}
+				/* Fading animation */
+				.fade {
+				animation-name: fade;
+				animation-duration: 2.5s;
+				}
+
+				@keyframes fade {
+				from {opacity: .4}
+				to {opacity: 1}
+				}
