@@ -8,7 +8,7 @@ MetPsy is a cohort based online coaching platform recently launched by coaches R
 
 MetPsy want to engage the cohort beyond the live online sessions and events. They have been approached by healthcare professionals about having a free app version of the platform. Design an innovative gamification system for the MetPsy app that keeps users engaged beyond the lecture and peer-learning to make sure they benefit fully from the app using gamification. These changes should feed back into the functionality of the platform to ensure real world effect.
 
-View our website: https://design-and-innovation-2023.github.io/Team2B-MetPsy-Gamification-Design/
+View our website: https://design-and-innovation-2023.github.io/Team2B-MetPsy-Gamification-Design/  
 Access our resources at https://linktr.ee/oipteam2b
 
 
